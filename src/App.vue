@@ -25,11 +25,11 @@ export default {
 
 <template>
   <HelloWorld msg="Vite + Vueeee" />
-  <lab3 msg=""/>
   <lab3_1 />
   <lab3_2 />
   <lab3_3 msg=""/>
   <lab3_4 msg=""/>
+  <lab3_5 />
   <lab3_6 msg=""/>
   <lab3_7 msg=""/>
 </template>

@@ -1,13 +1,15 @@
 <template>
+  <div>
 <p>Ваше число: {{ chvst }}</p>
   <v-text-field label="Число возводимое в степень"
-type="int" v-model="chvst"></v-text-field>
+ v-model="chvst"></v-text-field>
 <p>Ваша степень: {{ step }}</p>
 <v-text-field label="Cтепень"
-type="int" v-model="step"></v-text-field>
+v-model="step"></v-text-field>
 
 
 <p>Итог: {{ itog }}</p>
+</div>
 </template>
 
 
@@ -16,25 +18,17 @@ export default {
   name: "lab3_2",
   data () {
     return {
-      chvst: '',
-      step: '',
-      itog: '',
+      value: null,
+      step: null,
     }
   },
-  methods: {
-    input: function() {
+  computed:{
+    itog(){
+      return Math.pow(this.chvst, this.step);
+    }
+  },
+  
 
-    },
-    chislo(){
-      this.chvst = 0;
-    },
-    stepp(){
-      this.step = 0;
-    },
-    it(chvst,step){
-      this.itog = Math.pow(chvst,step);
-    },
-  }
 };
 </script>
 
