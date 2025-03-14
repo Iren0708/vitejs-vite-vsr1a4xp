@@ -30,7 +30,7 @@ export default {
   <lab3_3 msg=""/>
   <lab3_4 msg=""/>
   <lab3_5 />
-  <lab3_6 msg=""/>
+  <lab3_6 />
   <lab3_7 msg=""/>
 </template>
 
