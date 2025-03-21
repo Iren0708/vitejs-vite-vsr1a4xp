@@ -5,8 +5,6 @@ label="Autocomplete"
 ></v-autocomplete></div>
 </template>
 
-
-
 <script>
 export default {
 name: "lab3_4",

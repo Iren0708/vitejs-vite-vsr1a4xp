@@ -12,7 +12,8 @@ export default {
   name: "lab3_6",
   data(){
     return {
-      mes:'',}}
+      mes:'',
+      rad: null,}}
   }
 
 </script>

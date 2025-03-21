@@ -21,5 +21,5 @@ export default {
   }
 import { ref } from 'vue'
 
-  const selected = ref(['John'])
+  const selected = ref([''])
 </script>
